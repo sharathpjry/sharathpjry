@@ -8,7 +8,7 @@ const ProjectCard = ({title, description, url, active, index, skills}) => {
       }`}
     >
       <div className="title-text flex justify-between">
-        <a href="mailto:bhavin@gmail.com?subject=helloSubject&amp;body=hellobody">{title}</a>
+        <a href="mailto:sharath.pjr.1990@gmail.com?subject=helloSubject&amp;body=hellobody">{title}</a>
         <span className=" descriptive-text">
           
           <a href={url}>Live</a>

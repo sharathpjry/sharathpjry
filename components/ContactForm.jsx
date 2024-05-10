@@ -25,8 +25,8 @@ const [body, setBody] = useState(""); */}
           <p className=" text-center title-text">Sharath S Poojari</p>
           <p className="descriptive-text text-center">
             This mail will send to{" "}
-            <a href="mailto:praveentu9@gmail.com">
-            praveentu9@gmail.com
+            <a href="mailto:sharath.pjr.1990@gmail.com">
+            sharath.pjr.1990@gmail.com
             </a>
           </p>
         </div>
@@ -43,7 +43,7 @@ const [body, setBody] = useState(""); */}
             <p className="w-40 h-0.5  float-right rounded-full bg-sky-500 my-2"></p>
           </a>
           <a
-            href="mailto:praveentu9@gmail.com"
+            href="mailto:sharath.poojari.1990@gmail.com"
             className="w-1/2 group text-center hover:backdrop-brightness-90 text-gray-400 flex-col hover:text-gray-100 flex justify-center items-center"
           >
             <IoMailUnread className=" w-10 h-10 p-1 text-sky-500" />

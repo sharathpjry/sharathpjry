@@ -44,13 +44,14 @@ export const HeaderSection = () => {
         <ParticlesHead /> 
         <div className="flex justify-center   h-full pt-20 items-center ">
           <div className=" flex w-4/5 max-lg:w-11/12 max-md:w-full">
-            <div className="w-1/2 max-md:w-0  px-5 flex justify-end ">
+            <div className="w-1/2 max-md:w-0  px-5 max-md:px-1 flex justify-end max-lg:opacity-0">
              
               <div className="slider-thumb bg-sky-400"></div>
               <img
                 src="/mypic.png"
-                className=" absolute  scale-150 z-10 mx-20"
+                className=" absolute img-left  scale-100 z-10 mx-20 rounded-full  "
                 alt="Sharath S Poojari"
+                title="Sharath S Poojari"
               />
             </div>
             <div ref={textRef} className=" z-20 w-1/2 max-md:w-full  px-5 text-right flex flex-col gap-14">
@@ -68,6 +69,7 @@ export const HeaderSection = () => {
   
               <div className="">
                
+             
                 <img
                   src="/signature.png"
                   id="signature"
@@ -80,7 +82,7 @@ export const HeaderSection = () => {
   
               <div className="">
                 <h1 className=" text-3xl py-5">Full Stack Tester</h1>
-                <p className="text-base font-normal text-lime-500 ">Available</p>
+                <p className="text-base font-normal text-lime-200 ">Transitioning from Full Stack Tester to aspiring Full Stack Developer, mastering both quality assurance and full stack development for seamless software solutions.</p>
               </div>
   
               <div className=" infinite-bouncing-animation ">

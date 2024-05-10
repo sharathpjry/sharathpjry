@@ -1,6 +1,5 @@
 "use client";
 
-
 import React, { useEffect, useRef, useState } from "react";
 
 // intro comp
@@ -72,39 +71,50 @@ export const IntroSection = () => {
           <div className=" h-full gap-10 flex items-baseline max-md:flex-col justify-center w-3/5  max-xl:w-11/12 max-md:w-full">
             <div ref={quoteText} className="w-1/2 max-md:w-full  p-5">
               <p className=" descriptive-text my-10">
-                With over 6 years of experience, I am a dedicated QA Engineer specializing in test automation for web, mobile, and API testing. I have extensive expertise in Selenium WebDriver using Java, Cypress, and Playwright for JavaScript automation.
+                With over 9 years of experience as a dedicated QA Engineer
+                specializing in test automation for web, mobile, and API
+                testing, I bring extensive expertise in Selenium WebDriver using
+                Java, Cypress, and Playwright for JavaScript automation.
+                Additionally, boasting 4 years of experience in performance
+                testing with JMeter and security testing using Burp Suite, I am
+                well-versed in Agile methodologies, having worked in Agile
+                environments for over 5 years.
               </p>
               <p className="descriptive-text my-10">
-              In addition to my automation skills, I bring over 4 years of experience in performance testing with JMeter and security testing using Burp Suite. I am well-versed in Agile methodologies, having worked in Agile environments for over 5 years.
+                Now, transitioning from Full Stack Tester to aspiring Full Stack
+                Developer, I am mastering both quality assurance and full stack
+                development for seamless software solutions. Furthermore, with
+                hands-on experience in cloud services such as AWS,
+                containerization with Docker, and version control using
+                Git/GitHub, I am passionate about delivering high-quality
+                software through continuous improvement and collaboration within
+                Agile teams.
               </p>
-              <p className="descriptive-text my-10">
-              Furthermore, I have hands-on experience with cloud services such as AWS, containerization with Docker, and version control using Git/GitHub. I am passionate about delivering high-quality software through continuous improvement and collaboration within Agile teams.
-              </p>
-              
             </div>
             <div
               ref={rightRef}
               className="w-1/2 max-md:w-full flex flex-col justify-center items-center h-full px-2  z-50"
             >
               <p className=" title-text w-full ">
-                Bhandharkar{"'"}s College , Mangalore University, Mangalore
+                {/* Bhandharkar{"'"}s College , Mangalore University, Mangalore */}
+                Current Organization
               </p>
               <p className="w-40 h-0.5  rounded-full bg-sky-400 my-2"></p>
               <p className="flex items-center text-xs">
-                <span>2009</span>{" "}
-                <span className=" text-sky-400 text-3xl mx-2 rounded-full">
+                {/* <span>One Origin</span>{" "} */}
+                {/* <span className=" text-sky-400 text-3xl mx-2 rounded-full">
                   {" "}
                   -{" "}
                 </span>{" "}
-                <span className=" text-xs">2011</span>
+                <span className=" text-xs">2011</span> */}
               </p>
 
-              <p className=" text-xl p-2">BCA</p>
-              
+              {/* <p className=" text-xl p-2">BCA</p> */}
+
               <img
-                src="/degree-man.png"
+                src="/OneOrigin.png"
                 alt="degree"
-                className=" h-80 py-5 w-full brightness-75"
+                className=" h-30 py-5 w-80 brightness-75"
               />
             </div>
           </div>

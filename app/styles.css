@@ -107,3 +107,7 @@ details > p {
   transition: 0.5s;
   
 }
+
+.descriptive-text.bold {
+  font-weight: bold;
+}
