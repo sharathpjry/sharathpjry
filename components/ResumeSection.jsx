@@ -107,7 +107,7 @@ const ResumeSection = () => {
           style={{ background: "#1f232b" }}
         >
           <div>
-            <a href={process.env.RESUME_URI} className="linked-btn hover:underline my-10">Download resume</a>
+            <a href='/Sharath_Poojari.pdf' download="Sharath_Poojari.pdf" className="linked-btn hover:underline my-10">Download Portfolio</a>
           </div>
           <div className=" relative top-20 max-md:top-60 w-full h-96 flex justify-center">
             <img
